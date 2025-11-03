@@ -5,7 +5,7 @@ FROM python:3.10-slim
 WORKDIR /tmp/app
 
 # Copy file ke dalam container
-COPY app.py .
+COPY . .
 
 # Install Flask
 RUN pip install flask
