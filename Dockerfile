@@ -7,8 +7,5 @@ WORKDIR /tmp/app
 # Copy file ke dalam container
 COPY . .
 
-# Install Flask
 RUN pip install flask
-
-# running app
 CMD ["python", "app.py"]
